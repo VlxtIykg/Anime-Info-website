@@ -51,7 +51,7 @@ function dazai() {
     abilityTitles.innerText = "No Longer Human";
     abilitylink.title = "Osamu Dazai";
     abilitylink.href = "https://bungostraydogs.fandom.com//wiki/No_Longer_Human";
-    abilityimage.src = "/Images/table/No_Longer_Human.gif";
+    abilityimage.src = "../../Images/table/No_Longer_Human.gif";
     episode.href = "https://bungostraydogs.fandom.com//wiki/Episode_1";
     chapter.href = "https://bungostraydogs.fandom.com//wiki/Chapter_1";
     episode.innerText = "Volume 1";
@@ -81,7 +81,7 @@ function fma() {
     abilityTitles.innerText = "Elric Brothers";
     abilitylink.title = "Alchemy";
     abilitylink.href = "https://fma.fandom.com/wiki/Alchemy";
-    abilityimage.src = "/Images/table/Simpletransmutation.png";
+    abilityimage.src = "../../Images/table/Simpletransmutation.png";
     episode.href = "https://fma.fandom.com/wiki/Episode_1:_Fullmetal_Alchemist_(2009_series)";
     chapter.href = "https://fma.fandom.com/wiki/Chapter_1:_The_Two_Alchemists";
     episode.innerText = "Volume 1";
@@ -113,7 +113,7 @@ function tokyoghoul() {
     abilityTitles.innerText = "Kaneki";
     abilitylink.title = "Rinkaku Kagune";
     abilitylink.href = "https://tokyoghoul.fandom.com/wiki/Ken_Kaneki#Powers_and_Abilities";
-    abilityimage.src = "/Images/table/Kaneki.png";
+    abilityimage.src = "../../Images/table/Kaneki.png";
     episode.href = "https://tokyoghoul.fandom.com/wiki/Episode_1";
     chapter.href = "https://tokyoghoul.fandom.com/wiki/Chapter_1";
     episode.innerText = "Volume 1";
@@ -146,7 +146,7 @@ function meliodas() {
     abilityTitles.innerText = "Full counter";
     abilitylink.title = "Meliodas Ability";
     abilitylink.href = "https://nanatsu-no-taizai.fandom.com/wiki/Meliodas#Abilities_and_Equipment";
-    abilityimage.src = "/Images/table/Meliodas.png";
+    abilityimage.src = "../../Images/table/Meliodas.png";
     episode.href = "https://nanatsu-no-taizai.fandom.com/wiki/Episode_1";
     chapter.href = "https://nanatsu-no-taizai.fandom.com/wiki/Chapter_1";
     episode.innerText = "Volume 1";
@@ -179,7 +179,7 @@ function opm() {
     abilityTitles.innerText = "One punch.";
     abilitylink.title = "Saitama Ability";
     abilitylink.href = "https://onepunchman.fandom.com/wiki/Saitama#Abilities_and_Powers";
-    abilityimage.src = "/Images/table/Saitama.gif";
+    abilityimage.src = "../../Images/table/Saitama.gif";
     episode.href = "https://tokyoghoul.fandom.com/wiki/Episode_1";
     chapter.href = "https://tokyoghoul.fandom.com/wiki/Chapter_1";
     episode.innerText = "Volume 1";
@@ -212,7 +212,7 @@ function jjk() {
     abilityTitles.innerText = "Cursed Technique";
     abilitylink.title = "Itadori Cursed Technique";
     abilitylink.href = "https://jujutsu-kaisen.fandom.com/wiki/Yuji_Itadori#Abilities_and_Powers";
-    abilityimage.src = "/Images/table/Itadori.png";
+    abilityimage.src = "../../Images/table/Itadori.png";
     episode.href = "https://jujutsu-kaisen.fandom.com/wiki/Episode_1";
     chapter.href = "https://jujutsu-kaisen.fandom.com/wiki/Chapter_1";
     episode.innerText = "Volume 1";
@@ -243,7 +243,7 @@ function bleach() {
     abilityTitles.innerText = "Zangetsu";
     abilitylink.title = "Getsuga Tensho";
     abilitylink.href = "https://bleach.fandom.com/wiki/Getsuga_Tensh%C5%8D";
-    abilityimage.src = "/Images/table/673Ichigo_attacks.png";
+    abilityimage.src = "../../Images/table/673Ichigo_attacks.png";
     episode.href = "https://bleach.fandom.com/wiki/THE_DEATH_AND_THE_STRAWBERRY_(Volume_1)#001._Death_.26_Strawberry";
     chapter.href = "https://bleach.fandom.com/wiki/THE_DEATH_AND_THE_STRAWBERRY_(Volume_1)#001._Death_.26_Strawberry";
     episode.innerText = "Volume 1";
