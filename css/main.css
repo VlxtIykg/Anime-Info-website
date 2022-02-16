@@ -1,0 +1,268 @@
+html {
+    scroll-behavior: smooth;
+    /* Self explanatory ^ */
+}
+
+body {
+    background-color: darkturquoise;
+    padding-top: 50px;
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    /* Not working? */
+    background-color: #333;
+    color: white;
+    transition: top 0.3s;
+    top: -10px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 2;
+    /* To make nav bar overlap elements */
+}
+
+.navigation-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+    padding-right: 590px;
+}
+
+.navbar-links {
+    padding-left: 540px;
+    height: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    z-index: 1  ;
+}
+
+.navbar-links li:hover {
+    background-color: #555;
+}
+
+
+.thumbnail {
+    width: 230px;
+    height: 100px;
+    margin: 10px 8px 5px 0px ; /* Gives them more spaces on the top and right and bottom to make them look separated. */
+
+}
+
+.thumbnail__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* display flex makes the div a flex box and centering the image instead of having it pixel perfect to fit my entire screen. */
+}
+
+.border {
+    border: solid 1px red;
+    /* Making the border red to make it look like a traffic light. */
+}
+
+.caption__box {
+    display: grid;
+    justify-items: center;
+    /* Makes the div a grid and centers the paragraphs. */
+    font-size: 1.2rem;
+    /* Makes the font look bigger */
+    padding: 10px 0px;
+}
+.caption {
+    background-image:  
+        linear-gradient(45deg,red,green, blue);
+        /* makes the background have a gradiant color tilted 45 degrees starting with red ending blue */
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        /* clip; text makes it clip the image to the text itself and makes the black default color transparent. */
+}
+
+
+.slideshow__box {
+    display: grid;
+    justify-items: center;
+    /* Refer to line 23 for l29 & l30 info */
+    position: relative;
+    /* The next position absolute will collapse to this div */
+    -webkit-animation: smooth 1s ease-in;
+    -moz-animation: smooth 1s ease-in;
+    -o-animation: smooth 1s ease-in;
+    -ms-animation: smooth 1s ease-in;
+    animation: smooth 1s ease-in;
+}
+@-webkit-keyframes smooth {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
+@keyframes smooth {
+    from {opacity: 0}
+    to {opacity: 1}
+ }
+
+.slideshow {
+    width: 700px;
+    height: 350px;
+    position: absolute;
+    z-index: 0;
+    /* Position absolute makes the image fall under the div and makes the button not fall under image */
+}
+
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1s;
+    -o-animation: fade 1s ease-in-out;
+    animation: ease-in-out;
+    animation-name: fade;
+    animation-duration: 1s;
+  }
+  
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+@-o-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+  
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+ }
+.arrow {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-blend-mode: overlay;
+    background: gray;
+    transition: 0.5s;
+}
+
+.arrow:hover {
+    cursor: pointer;
+    background-color: indianred;
+}
+
+.arrow__left{
+    top: 150px;
+    left: -325px;
+}
+
+.arrow__right {
+    top: 100px;
+    right: -325px;
+}
+
+.space {
+    position: relative;
+    height: 300px;
+}
+
+.space1 {
+    position: relative;
+    height: 20px;
+}
+.mw-headline {
+    width: 800px;
+    padding-right: 1500px;
+    border-bottom: solid 2px red;
+}
+
+div[id*=ability] {
+    position: relative;
+    width: auto;
+    height: 300px;
+}
+
+.table__box {
+    background-color: black;
+    width: 100%; 
+    border:2px solid #af111c;
+}
+
+.linking {
+    background:#af111c; 
+    border:2px solid #af111c;
+    text-align:center;
+}
+
+.weight {
+    font-weight: normal;
+    color: black;
+    text-align: center;
+}
+
+.skills {
+    position: relative;
+    width: 1100px;
+    height: 300px;
+}
+
+.skills__box {
+    height: 415px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+}
+
+h2[class*=background_story] {
+    position: relative;
+    padding-right: 100px;
+}
+
+div[id*=background] {
+    width: 1550px;
+    height: 150px;
+}
+
+
+#pauseButton {
+    transform: translate(-50%, -50%);
+    top: 329%;
+    position: absolute;
+    left: 100%;
+    background: transparent;
+    padding: 12px 24px;
+    border: none;
+    font-size: 16px;
+    -ms-transform: translate(-50%, -50%);
+    cursor: pointer;
+    color: #DDD;
+    background: black;
+    transition: 0.3s;
+}
+
+#pauseButton:hover {
+    border-radius: 1%;
+    mix-blend-mode: inherit;
+    color: darkmagenta;
+    cursor: pointer;
+}
+
+.thumbnail {
+    opacity: 0.4;
+    transition: 0.5s;
+    transition-property: opacity;
+}
+
+.thumbnail:hover {
+    opacity: 0.8;
+}

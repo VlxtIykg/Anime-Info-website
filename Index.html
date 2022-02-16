@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kami's project</title>
+        <link href="css/main.css" rel="stylesheet" type="text/css">
+        <link href="css/table.css" rel="stylesheet" type="text/css">
+        <link href="css/card/DazaiCard.css" id="multiple" rel="stylesheet" type="text/css">
+        <script src="javascript/table.js" type="text/javascript" defer></script>
+        <script src="javascript/card/cardText.js" type="text/javascript" defer></script>
+        <script src="javascript/card/cards.js" type="text/javascript" defer></script>
+        <script src="javascript/Index.js" type="text/javascript" defer></script>
+        <script src="javascript/executableFunc.js" type="text/javascript" defer></script>
+    </head>
+    <body>
+            <!-- Navigation bar -->
+    <nav class="navbar">
+                <div class="navigation-title">Navigation</div>
+                <div class="navbar-links">
+                    <ul>
+                        <li><a href="#home">Slideshow</a></li>
+                        <li><a href="#abilitytag">Abilities</a></li>    
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#backgrounds">Background</a></li>
+                        <li><a href="#battles">Battles</a></li>
+                        <li><a href="#card">Card</a></li>
+                    </ul>
+                </div>
+    </nav>
+
+    <!-- Container for the 6 mini images -->
+    <span id="home"><br><br></span>
+    <div class="thumbnail__box">
+        <img src="Images/cards/dazaiatsushi.jpg" alt="Dazai Osamu and Atsushi Nakajima from bungou stray dogs" class="thumbnail border" id="dazai" onclick="currentslide(1)">
+        <img src="Images/cards/fma.jpg" alt="Edward Elric and Alphonse Elric from Full metal alchemists" class="thumbnail border" id="elric" onclick="currentslide(2)">
+        <img src="Images/cards/kaneki.jpg" alt="Ichigo Kurosaki from Bleach" class="thumbnail border" id="kaneki" onclick="currentslide(3)">
+        <img src="Images/cards/meliodas.jpg" alt="Ken Kaneki from tokyo ghoul" class="thumbnail border" id="meliodas" onclick="currentslide(4)">
+        <img src="Images/cards/saitama.jpg" alt="Meliodas from 7 deadly sins" class="thumbnail border" id="saitama" onclick="currentslide(5)">
+        <img src="Images/cards/sukuna.jpg" alt="Saitama from one punch man" class="thumbnail border" id="sukuna" onclick="currentslide(6)">
+        <img src="Images/cards/ichigo.jpg" alt="Sukuna from Jujustu Kaisen" class="thumbnail border" id="ichigo" onclick="currentslide(7)">
+    </div>
+    <!-- Container for caption -->
+    <div class="caption__box">
+        <p class="caption" id="captionswap">This is a harmless caption</p>
+    </div>
+    
+    <div class="slideshow__box fade">
+        <img src="Images/cards/dazaiatsushi.jpg" alt="Dazai Osamu and Atsushi Nakajima from bungou stray dogs" class="slideshow fade" id="slideshow">
+        <img src="Images/arrows/left-arrow.png" alt="Left Arrow Click Me" class="arrow arrow__left" onclick="previous()">
+        <img src="Images/arrows/right-arrow.png" alt="Right Arrow Click Me" class="arrow arrow__right" onclick="next()">
+        <button onclick="controls()" id="pauseButton">Pause</button>
+    </div>
+    
+    <div class="space" >
+        <span id="abilitytag"></span>
+    </div>
+    
+    <div id="ability">
+        <h2><span class="mw-headline" id="Ability">Ability</span></h2> 
+
+        <dl><dd><i>Main article: <a href="https://bungostraydogs.fandom.com//wiki/No_Longer_Human" id="article" target="_blank" title="No Longer Human">No Longer Human</a></i></dd></dl>
+
+        <p>
+            <b id="abilityTitle">No Longer Human</b><span class="weight"> (<span class="t_nihongo_kanji" lang="ja">人間失格,</span><span class="t_nihongo_comma" style="display:none">,</span> <i><span class="englishName">Ningen Shikkaku</span></i><span><sup><a href="http://en.wikipedia.org/wiki/Help:Japanese" class="extiw" title="wikipedia:Help:Japanese"><span class="t_nihongo_icon" style="color:#fce300;font:bold 80% sans-serif; padding: 0 .1em;">?</span></a></sup></span><span id="text">, literally "Human Disqualification")</span></span> <span id="abilitydescription">allows Dazai to nullify others' abilities on contact. It relies on skin contact and is always active. As such, he can nullify any ability even while restrained as soon as it touches him.</span>
+        </p>
+
+        <table class="table__box">
+            <tbody>
+                <tr>
+                    <td colspan="3" class="linking">
+                        <b id="abilityTitles">No Longer Human</b><span class="weight"> (<span class="t_nihongo_kanji" lang="ja">人間失格,</span><span class="link">,</span> <i><span class="englishName">Ningen Shikkaku</span></i><span><sup><a href="http://en.wikipedia.org/wiki/Help:Japanese" class="extiw" title="wikipedia:Help:Japanese"><span class="t_nihongo_icon" style="color:#fce300;font:bold 80% sans-serif; text-decoration:none; padding:0 .1em;">?</span></a></sup></span>)</span>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <th rowspan="3" style="background:black; width:100px; border:2px solid #af111c;"><a href="https://bungostraydogs.fandom.com//wiki/No_Longer_Human" id="abilitylink" target="_blank" title="No Longer Human"><img id="abilityimage" alt="No Longer Human.gif" src="/Images/table/No_Longer_Human.gif" decoding="async" width="200" height="118" data-image-name="No Longer Human.gif" data-image-key="No_Longer_Human.gif" data-src="https://static.wikia.nocookie.net/bungostraydogs/images/5/5f/No_Longer_Human.gif/revision/latest/scale-to-width-down/200?cb=20180111192256" class=" lazyloaded"></a>
+                    </th>
+                    <th class="ability">
+                        Manga Debut:
+                    </th>
+                    <td style="border:1px solid #af111c;"><a href="https://bungostraydogs.fandom.com//wiki/Chapter_1" id="chapter" title="Chapter 1">Chapter 1</a>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <th class="ability">
+                        Anime Debut:
+                    </th>
+                    <td style="border:1px solid #af111c;"><a href="https://bungostraydogs.fandom.com//wiki/Episode_1" id="episode" title="Episode 1">Episode 1</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th class="ability" id="ability1">
+                        Ability:
+                    </th>
+                    <td style="border:1px solid #af111c; color: white;" id="abilities">Ability Neutralization</td>
+                </tr>
+        </tbody>
+    </table>
+    <span id="skills"></span>
+    </div>
+
+    <div class="skills__box" id="skillset">
+        <h2><span class="mw-headline skills" id="Skills">Skills</span></h2>
+        <div class="skills" id="skill">
+            <ul><li><span id="main-topic-1"><b>Intelligence</b></span><span id="main-evidence-1">: Dazai's intelligence is his primary source of expertise as a Mafia executive in the past and as a detective at present. <a href="/wiki/%C5%8Cgai_Mori" title="Ōgai Mori">Ōgai Mori</a>, a proficient tactician himself, widely trusted and relied on Dazai's intelligence, whom he claimed to be his most worthy right-hand man should he have stayed in the Mafia.<sup id="cite_ref-ch30_26-0" class="reference"><a href="#cite_note-ch30-26">[26]</a></sup> Dazai is also recognized as one of the <b>Agency's sharpest detectives</b><span class="weight"> (<span class="t_nihongo_kanji" lang="ja">双璧,</span><span class="link">,</span> <i><span>Sōheki</span></i><span><sup><a href="http://en.wikipedia.org/wiki/Help:Japanese" class="extiw" title="wikipedia:Help:Japanese"><span class="t_nihongo_icon" style="color:#fce300;font:bold 80% sans-serif; padding:0 .1em;">?</span></a></sup></span>, <i>lit.</i> "Double Jade")</span> together with Ranpo,<sup id="cite_ref-novel4_4-1" class="reference"><a href="#cite_note-novel4-4">[4]</a></sup> who is proclaimed by others and himself as the world's greatest detective. With his intelligence, he is able to go head-to-head against the formidable <a href="/wiki/Fyodor_Dostoevsky" title="Fyodor Dostoevsky">Fyodor Dostoevsky</a>, an avatar of cunning who sees Dazai to be quite identical to him.<sup id="cite_ref-ch46_27-0" class="reference"><a href="#cite_note-ch46-27">[27]</a></sup> Even Ranpo once subtly admitted that going up against Fyodor is like going up against Dazai,<sup id="cite_ref-28" class="reference"><a href="#cite_note-28">[28]</a></sup> whom the great detective himself views to be quite an enigma even as his co-worker.<sup id="cite_ref-ch6_21-1" class="reference"><a href="#cite_note-ch6-21">[21]</a></sup> Dazai has an aptitude for predicting outcomes,<sup id="cite_ref-ch36_23-1" class="reference"><a href="#cite_note-ch36-23">[23]</a></sup><sup id="cite_ref-ch37_25-1" class="reference"><a href="#cite_note-ch37-25">[25]</a></sup> which he himself admits is one of his strong qualities, if not his strongest.<sup id="cite_ref-ch11_3-5" class="reference"><a href="#cite_note-ch11-3">[3]</a></sup><sup id="cite_ref-ch31_2-2" class="reference"><a href="#cite_note-ch31-2">[2]</a></sup></span>
+            <ul><li><span id="main-topic-2"><b>Negotiation Skills</b></span><span id="main-evidence-2">: Dazai is an adept persuader, able to negotiate with others and consequently acquire his required outcomes. He is able to convince Kōyō, a Mafia executive, into letting Kyōka get arrested and even to stay in the Agency as their captive;<sup id="cite_ref-ch26_29-0" class="reference"><a href="#cite_note-ch26-29">[29]</a></sup><sup id="cite_ref-ch37_25-2" class="reference"><a href="#cite_note-ch37-25">[25]</a></sup> <a href="/wiki/Francis_Scott_Key_Fitzgerald" title="Francis Scott Key Fitzgerald">Francis Scott Key Fitzgerald</a>, a former enemy, into collaborating with him to catch Fyodor;<sup id="cite_ref-ch53_12-1" class="reference"><a href="#cite_note-ch53-12">[12]</a></sup> and even Akutagawa into tailing and potentially helping Atsushi—the latter's sworn rival—before the outbreak of the <a href="/wiki/Decay_of_the_Angel" title="Decay of the Angel">Decay of the Angel</a>' terrorism plot.<sup id="cite_ref-30" class="reference"><a href="#cite_note-30">[30]</a></sup> He also once presumably persuaded <a href="/wiki/Naomi_Tanizaki" title="Naomi Tanizaki">Naomi Tanizaki</a> to work with him behind her <a href="/wiki/Jun%27ichir%C5%8D_Tanizaki" title="Jun'ichirō Tanizaki">brother</a>'s back, who both were secretly tasked by Kunikida into tricking Dazai, only for this scheme to backfire once Dazai realizes their clandestine arrangement.<sup id="cite_ref-novel3_22-2" class="reference"><a href="#cite_note-novel3-22">[22]</a></sup></li></ul></li></span>
+            <li><span id="main-topic-3"><b></b>Dexterity</b></span><span id="main-evidence-3">: Dazai is proficient in <span class="newwin"><a href="http://en.wikipedia.org/wiki/lock_picking" class="extiw" title="wikipedia:lock picking">lock picking</a></span>, such as prying locked boxes<sup id="cite_ref-darkera_11-7" class="reference"><a href="#cite_note-darkera-11">[11]</a></sup> or handcuffs<sup id="cite_ref-ch10_18-1" class="reference"><a href="#cite_note-ch10-18">[18]</a></sup><sup id="cite_ref-movie1_13-1" class="reference"><a href="#cite_note-movie1-13">[13]</a></sup> open. Moreover, he was able to implant a <span class="newwin"><a href="http://en.wikipedia.org/wiki/Covert_listening_device" class="extiw" title="wikipedia:Covert listening device">bug</a></span> in Higuchi's pocket without being noticed by the mafioso.<sup id="cite_ref-31" class="reference"><a href="#cite_note-31">[31]</a></sup> He was also able to swipe <a href="/wiki/Ch%C5%ABya_Nakahara" title="Chūya Nakahara">Chūya Nakahara</a>'s knife without even being seen.<sup id="cite_ref-ch31_2-3" class="reference"><a href="#cite_note-ch31-2">[2]</a></sup> Kunikida also once described Dazai to be "frighteningly dexterous", knowing that Dazai can pick a lock to a bank's safe with a needle or easily switch out slips of paper with fake ones.<sup id="cite_ref-novel3_22-3" class="reference"><a href="#cite_note-novel3-22">[22]</a></sup></li></span>
+            <li><span id="main-topic-4"><b>Physical Prowess</b></span><span id="main-evidence-4">: Dazai had fair-to-middling hand-to-hand skills among the Mafia as Chūya recalled, which his nullification ability made up for. Dazai was able to briefly hold his own against Chūya, the most physically gifted in the Mafia, by predicting and defending against his moves and timing which he had memorized, though he got backed up on the wall soon after.<sup id="cite_ref-ch11_3-6" class="reference"><a href="#cite_note-ch11-3">[3]</a></sup> Dazai was also able to <a href="/wiki/Osamu_Dazai_vs._Big_Man" title="Osamu Dazai vs. Big Man">fend against a big man</a> by utilizing his resources around him, albeit being overwhelmed later on.<sup id="cite_ref-novel1_6-3" class="reference"><a href="#cite_note-novel1-6">[6]</a></sup></li></ul></span>
+        </div>
+        <span id="backgrounds"></span>
+    </div>
+
+    <div id="background">   
+        <h2><span class="mw-headline background__story" id="Background">Background</span></h2>
+        <p id="bg">During his time as a Mafia executive, Dazai held a record of 138 counts of <span class="newwin"><a href="http://en.wikipedia.org/wiki/conspiracy_to_murder" class="extiw" title="wikipedia:conspiracy to murder">conspiracy to murder</a></span>, 312 counts of <span class="newwin"><a href="http://en.wikipedia.org/wiki/extortion" class="extiw" title="wikipedia:extortion">extortion</a></span>, and 625 counts of assorted <span class="newwin"><a href="http://en.wikipedia.org/wiki/fraud" class="extiw" title="wikipedia:fraud">fraud</a></span>, among other crimes.<sup id="cite_ref-32" class="reference"><a href="#cite_note-32">[32]</a></sup> After he defected from the Mafia and went underground, this ledger was wiped clean by the <a href="/wiki/The_Seventh_Agency" title="The Seventh Agency">Seventh Agency</a>, who were employed by Ango.<sup id="cite_ref-ch26_29-1" class="reference"><a href="#cite_note-ch26-29">[29]</a></sup><sup id="cite_ref-33" class="reference"><a href="#cite_note-33">[33]</a></sup>
+        </p>
+        <span id="battles"></span>
+    </div>
+
+    <div class="battles" id="battle">
+        <h2><span class="mw-headline" id="Battles">Battles</span></h2>
+        <dl><dd><i>Main article: <a href="https://bungostraydogs.fandom.com/wiki/List_of_Battles" title="List of Battles">List of Battles</a></i></dd></dl>
+
+            <div class="arc"><span class="whitelink">Fifteen Arc</span><button class="switcher" id="switch1" onclick="switchIt('1'), swap('switch1')">Show</button><span></span></div>
+            <div class="mw-collapsible-content" id="1">
+            <table class="wikitable" style="border:2px solid #af111c; text-align:center; padding:4px; width: 100%;">
+            
+            <tbody><tr>
+            <td class="closed"><a href="/wiki/Ch%C5%ABya_Nakahara_and_Osamu_Dazai_vs._Arthur_Rimbaud" title="Chūya Nakahara and Osamu Dazai vs. Arthur Rimbaud"><img alt="Chuya Nakahara and Osamu Dazai vs. Arthur Rimbaud.png" src="/Images/table/Chuya_Nakahara_and_Osamu_Dazai_vs._Arthur_Rimbaud.png" decoding="async" width="200" height="112" data-image-name="Chuya Nakahara and Osamu Dazai vs. Arthur Rimbaud.png" data-image-key="Chuya_Nakahara_and_Osamu_Dazai_vs._Arthur_Rimbaud.png" data-src="https://static.wikia.nocookie.net/bungostraydogs/images/1/1a/Chuya_Nakahara_and_Osamu_Dazai_vs._Arthur_Rimbaud.png/revision/latest/scale-to-width-down/200?cb=20210123085521" class=" ls-is-cached lazyloaded"></a>
+            </td>
+            <td class="open"><a href="/wiki/Ch%C5%ABya_Nakahara_and_Osamu_Dazai_vs._Arthur_Rimbaud" title="Chūya Nakahara and Osamu Dazai vs. Arthur Rimbaud">Chūya Nakahara and Osamu Dazai vs. Arthur Rimbaud</a>
+            </td>
+            <td class="status">Win
+            </td></tr></tbody></table>
+            </div>
+            
+            <div class="arc"><span class="whitelink">Azure Apostle Arc</span><button class="switcher" id="switch2" onclick="switchIt('2'), swap('switch2')">Show</button><span class="fadeinimg" ></span></div>
+            <div class="mw-collapsible-content" id="2">
+            <table class="wikitable" width="100%" style="border:2px solid #af111c; text-align:center; padding:4px;">
+            
+            
+            <tbody><tr>
+            <td class="closed"><a href="/wiki/Osamu_Dazai_vs._Big_Man" title="Osamu Dazai vs. Big Man"><img alt="Osamu Dazai vs. Big Man.png" src="/Images/table/Osamu_Dazai_vs._Big_Man.png" decoding="async" width="200" height="112" data-image-name="Osamu Dazai vs. Big Man.png" data-image-key="Osamu_Dazai_vs._Big_Man.png" data-src="https://static.wikia.nocookie.net/bungostraydogs/images/f/f4/Osamu_Dazai_vs._Big_Man.png/revision/latest/scale-to-width-down/200?cb=20210123133450" class="lazyload"></a>
+            </td>
+            <td class="open"><a href="/wiki/Osamu_Dazai_vs._Big_Man" title="Osamu Dazai vs. Big Man">Osamu Dazai vs. Big Man</a>
+            </td>
+            <td class="status">
+                Unsettled (Changed opponents)
+            </td></tr></tbody></table>
+            </div>
+            
+            <div class="arc"><span class="whitelink">Port Mafia Arc</span><button class="switcher" id="switch3" onclick="switchIt('3'), swap('switch3')">Show</button><span class="fadeinimg"></span></div>
+            
+            <div class="mw-collapsible-content" id="3">
+            <table class="wikitable table__style" style="width: 100%;">
+            
+            <tbody><tr>
+            <td class="closed"><a href="/wiki/Osamu_Dazai_vs._Ch%C5%ABya_Nakahara" title="Osamu Dazai vs. Chūya Nakahara"><img alt="Chuya threatens Dazai.png" src="/Images/table/Chuya_threatens_Dazai.png" decoding="async" width="200" height="115" data-image-name="Chuya threatens Dazai.png" data-image-key="Chuya_threatens_Dazai.png" data-src="https://static.wikia.nocookie.net/bungostraydogs/images/5/5e/Chuya_threatens_Dazai.png/revision/latest/scale-to-width-down/200?cb=20201121122458" class="lazyload"></a>
+            </td>
+            <td class="open"><a href="/wiki/Osamu_Dazai_vs._Ch%C5%ABya_Nakahara" title="Osamu Dazai vs. Chūya Nakahara">Osamu Dazai vs. Chūya Nakahara</a>
+            </td>
+            <td class="status">
+                Unsettled
+            </td></tr></tbody></table>
+            </div>
+            
+            <div class="arc"><span class="whitelink">The Guild Arc</span><button class="switcher" id="switch4" onclick="switchIt('4'), swap('switch4')">Show</button><span class="fadeinimg"></span></div>
+            <div class="mw-collapsible-content" id="4">
+            <table class="wikitable" width="100%" style="border:2px solid #af111c; text-align:center; padding:4px;">
+            
+            <tbody><tr>
+            <td class="closed"><a href="/wiki/Ch%C5%ABya_Nakahara_and_Osamu_Dazai_vs._John_Steinbeck_and_Howard_Phillips_Lovecraft" title="Chūya Nakahara and Osamu Dazai vs. John Steinbeck and Howard Phillips Lovecraft"><img alt="Chuya and Dazai vs. Steinbeck and Lovecraft.png" src="/Images/table/Chuya_and_Dazai_vs._Steinbeck_and_Lovecraft.png" decoding="async" width="200" height="112" data-image-name="Chuya and Dazai vs. Steinbeck and Lovecraft.png" data-image-key="Chuya_and_Dazai_vs._Steinbeck_and_Lovecraft.png" data-src="https://static.wikia.nocookie.net/bungostraydogs/images/0/06/Chuya_and_Dazai_vs._Steinbeck_and_Lovecraft.png/revision/latest/scale-to-width-down/200?cb=20210123142456" class="lazyload"></a>
+            </td>
+            <td class="open"><a href="/wiki/Ch%C5%ABya_Nakahara_and_Osamu_Dazai_vs._John_Steinbeck_and_Howard_Phillips_Lovecraft" title="Chūya Nakahara and Osamu Dazai vs. John Steinbeck and Howard Phillips Lovecraft">Chūya Nakahara and Osamu Dazai vs. John Steinbeck and Howard Phillips Lovecraft</a>
+            </td>
+            <td class="status">Win
+            </td></tr></tbody></table>
+            </div>
+            
+            <div class="arc"><span class="whitelink">The Guild Aftermath Arc</span><button class="switcher" id="switch5" onclick="switchIt('5'), swap('switch5')">Show</button><span class="fadeinimg"></span></div>
+            <div class="mw-collapsible-content" id="5">
+            <table class="wikitable table__style" style="width: 100%;">
+            
+            <tbody><tr>
+            <td class="closed"><a href="/wiki/Armed_Detective_Agency_vs._Zoopark" title="Armed Detective Agency vs. Zoopark"><img alt="Yosano threatens Zoopark's boss.png" src="/Images/table/Yosano_threatens_Zoopark27s_boss.png" decoding="async" width="200" height="112" data-image-name="Yosano threatens Zoopark's boss.png" data-image-key="Yosano_threatens_Zoopark%27s_boss.png" data-src="https://static.wikia.nocookie.net/bungostraydogs/images/5/56/Yosano_threatens_Zoopark%27s_boss.png/revision/latest/scale-to-width-down/200?cb=20200501060045" class=" lazyloaded"></a>
+            </td>
+            <td class="open"><a href="/wiki/Armed_Detective_Agency_vs._Zoopark" title="Armed Detective Agency vs. Zoopark">Armed Detective Agency vs. Zoopark</a>
+            </td>
+            <td class="status">
+                Win
+            </td></tr></tbody></table>
+            </div>
+    </div>
+    
+    <div class="space1" id="card"></div>
+
+    <div class="card">
+        <!-- Box for card -->
+        <div class="card__content">
+            <!-- Shows the anime title and anime mc name. -->
+            <div class="card__front">
+                <h3 class="card__title" id="animeTitle"><a href="https://bungostraydogs.fandom.com/wiki/Bungo_Stray_Dogs_(Anime)"  target="_blank">"Bungou Stray Dogs"</a></h3>
+                <p class="card__subtitle" id="animeMc">Dazai Osamu & Atsushi Najikama</p>
+            </div> 
+            <!-- Show the description of the anime -->
+            <div class="card__back">
+                <p class="card__body" id="animeDesc">The picture shows Osamu Dazai and Atsushi Nakajima! The obvious main character of the show <a href="https://bungostraydogs.fandom.com/wiki/Bungo_Stray_Dogs_(Anime)"  target="_blank">"Bungou Stray Dogs"</a> casting different seasons with different MC and Villians! You can read more in depth about its detail <a href="https://en.wikipedia.org/wiki/Bungo_Stray_Dogs" target="_blank">here.</a>  Osamu Dazai is one of the <a href="https://bungostraydogs.fandom.com/wiki/Armed_Detective_Agency">armed detective agency</a> who used to work with <a href="https://bungostraydogs.fandom.com/wiki/Port_Mafia">the Port Mafia</a> <sub title="Imo dazai the coolest!">editor note</sub> </p>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

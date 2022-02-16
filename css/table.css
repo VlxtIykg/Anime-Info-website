@@ -1,0 +1,68 @@
+
+.battles {
+    width: 1550px;
+}
+
+.arc {
+    background-color: #8B0707; 
+    color: white;
+    text-shadow: 1px 1px 1px #333333; 
+    text-align:center;
+    border:2px solid black;
+    position: relative;
+}
+
+.fadeinimg{
+    float: right;
+}
+
+.link {
+    display: none;
+}
+
+.table__style {
+    border:2px solid #af111c; text-align:center; padding:4px;
+}
+
+.closed {
+    width: 30%;
+}
+
+.open {
+    width: 50%;
+}
+
+.status {
+    width: 20%;
+    position: relative;
+    color: white;
+}
+
+.switcher {
+    position: absolute;
+    background-image: 
+    linear-gradient(45deg,yellow, orange);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    right: 0px;
+    height: 25.2px;
+    cursor: pointer;
+}
+
+
+.wikitable {
+    background-color: black;
+    position: relative;
+}
+
+div.mw-collapsible-content {
+     display: none;
+    }
+
+.ability {
+    width:130px;
+    background:#af111c; 
+    border:1px solid #af111c; 
+    color: white;
+}
