@@ -54,7 +54,7 @@
   
   .card__front {
     background-color: #333;
-    background-image: url(/Images/cards/meliodas.jpg);
+    background-image: url(../../Images/cards/meliodas.jpg);
     background-size: cover;
     background-blend-mode: overlay;
     color: #333;
@@ -105,7 +105,7 @@
     transform: rotateY(.5turn);
     color: var(--clr);
     background: #333;
-    background-image: url(/Images/cards/elizabeth.jpeg);
+    background-image: url(../../Images/cards/elizabeth.jpeg);
     background-size: cover;
     background-blend-mode: overlay;
   }

@@ -54,7 +54,7 @@
   
   .card__front {
     background-color: var(--clr);
-    background-image: url(/Images/cards/saitama.jpg);
+    background-image: url(../../Images/cards/saitama.jpg);
     background-size: cover;
     background-blend-mode: overlay;
     background-color: #333;
@@ -109,7 +109,7 @@
     transform: rotateY(.5turn);
     color: var(--clr);
     background: #333;
-    background-image: url(/Images/cards/boros.jpg);
+    background-image: url(../../Images/cards/boros.jpg);
     background-size: cover;
     background-blend-mode: overlay;
     background-position: center;

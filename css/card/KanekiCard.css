@@ -55,7 +55,7 @@
   
   .card__front {
     background-color: var(--clr);
-    background-image: url(/Images/cards/kaneki.jpg);
+    background-image: url(../../Images/cards/kaneki.jpg);
     background-size: cover;
     background-blend-mode: overlay;
     color: var(--bg);
@@ -107,7 +107,7 @@
     transform: rotateY(.5turn);
     color: var(--clr);
     background: #333; 
-    background-image: url(/Images/cards/kaneki.jpg);
+    background-image: url(../../Images/cards/kaneki.jpg);
     background-size: cover;
     background-blend-mode: overlay;
     color: var(--bg);
