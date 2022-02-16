@@ -56,7 +56,7 @@ body {
 
 .card__front {
   background-color: var(--clr);
-  background-image: url(/Images/cards/dazaiatsushi.jpg);
+  background-image: url(../../Images/cards/dazaiatsushi.jpg);
   background-size: cover;
   background-blend-mode: overlay;
   color: #333;
@@ -111,7 +111,7 @@ body {
   color: var(--clr);
   background: #333;
   background-blend-mode: overlay;
-  background-image: url(/Images/cards/dazaiatsushi.jpg);
+  background-image: url(../../Images/cards/dazaiatsushi.jpg);
   background-position: left;
   background-size: cover;
 }
