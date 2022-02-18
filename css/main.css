@@ -183,9 +183,19 @@ body {
 }
 .mw-headline {
     width: 800px;
-    padding-right: 1500px;
+    padding-right: 1300px;
     border-bottom: solid 2px red;
 }
+.mw-headline:nth-of-type(3n) {
+    width: 100px;
+    padding-right: 1100px;
+    border-bottom: solid 2px red;
+}
+/* .mw-headline:nth-of-type(4n) {
+    width: 100px;
+    padding-right: 1100px;
+    border-bottom: solid 2px green;
+} */
 
 div[id*=ability] {
     position: relative;
@@ -218,6 +228,7 @@ div[id*=ability] {
 }
 
 .skills__box {
+    width: 1505px;
     height: 415px;
     padding-left: 100px;
     padding-bottom: 100px;
@@ -225,12 +236,13 @@ div[id*=ability] {
 
 h2[class*=background_story] {
     position: relative;
-    padding-right: 100px;
 }
 
 div[id*=background] {
     width: 1550px;
     height: 150px;
+    padding-top: 10px;
+    padding-left: 109px;
 }
 
 

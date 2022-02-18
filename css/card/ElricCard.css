@@ -54,7 +54,7 @@ body {
 
 .card__front {
   background-color: var(--clr);
-  background-image: url(../../Images/cards/fma.jpg);
+  background-image: url(/Anime-Info-website/Images/cards/fma.jpg);
   background-size: cover;
   background-blend-mode: overlay;
   background-color: #333;
@@ -107,7 +107,7 @@ body {
   transform: rotateY(.5turn);
   color: var(--clr);
   background: #333;
-  background-image: url(../../Images/cards/fma.jpg);
+  background-image: url(/Anime-Info-website/Images/cards/fma.jpg);
   background-size: cover;
   background-position: right;
   background-blend-mode: overlay;
