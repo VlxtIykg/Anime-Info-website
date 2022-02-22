@@ -65,7 +65,7 @@ function fma() {
     title.innerHTML = "<span title=\"Mc: Edward Elric & Aplhonse Elric\">Full Metal Alchemists</span>";
     anime.innerHTML = "<a href=\"https://fma.fandom.com/wiki/Main_Page\" target=\"_blank\">Full Metal Alchemist</a>";
     character.innerText = "Edward Elric * Alphonse Elric";
-    description.innerText = "The Elric Brothers, two of the few main characters in the Full Metal Alchemist Series! Undenianly, one of the coolest characters and anime. Their journey starts from a tragic start to an ending with infinite scenarios. Through thick and thin, the brothers got each other's <span title=\"Sometimes quite literally..\">back</span>.<a id=\"fandom\" href=\"https://fma.fandom.com/wiki/Main_Page\" target=\"_blank\"><br>Fandom</a>";
+    description.innerHTML = "The Elric Brothers, two of the few main characters in the Full Metal Alchemist Series! Undenianly, one of the coolest characters and anime. Their journey starts from a tragic start to an ending with infinite scenarios. Through thick and thin, the brothers got each other's <span title=\"Sometimes quite literally..\">back</span>.<a id=\"fandom\" href=\"https://fma.fandom.com/wiki/Main_Page\" target=\"_blank\"><br>Fandom</a>";
     var link = document.getElementById('multiple');
     link.setAttribute('href', '/css/card/ElricCard.css');
     abilityTitle.innerHTML = "Alphonse Elric & Edward Elric";
