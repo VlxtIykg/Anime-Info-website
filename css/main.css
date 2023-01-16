@@ -1,10 +1,24 @@
+:root {
+    --level-one: translateZ(3rem);
+    --level-two: translateZ(6rem);
+    --level-three: translateZ(9rem);
+    
+    --fw-normal: 400;
+    --fw-bold: 700;
+    
+    --primary: #0A5A9C;
+    --secondary: #F5A623;
+    --tertiary: #2E2E2E;
+    --background: #f5f5f5;
+    --text: #2E2E2E;
+  }
 html {
     scroll-behavior: smooth;
     /* Self explanatory ^ */
 }
 
 body {
-    background-color: darkturquoise;
+    background-color: var(--background);
     padding-top: 50px;
 }
 
@@ -14,8 +28,8 @@ body {
     justify-content: space-between;
     align-items: center;
     /* Not working? */
-    background-color: #333;
-    color: white;
+    background-color: var(--secondary);
+    color: var(--text);
     transition: top 0.3s;
     top: -10px;
     width: 100%;
@@ -48,13 +62,13 @@ body {
 .navbar-links li a {
     display: block;
     text-decoration: none;
-    color: white;
+    color: var(--text);
     padding: 1rem;
     z-index: 1  ;
 }
 
 .navbar-links li:hover {
-    background-color: #555;
+    background-color: var(--primary);
 }
 
 
@@ -184,7 +198,7 @@ body {
 .mw-headline {
     width: 800px;
     padding-right: 1300px;
-    border-bottom: solid 2px red;
+    border-bottom: solid 2px var(--secondary);
 }
 .mw-headline:nth-of-type(3n) {
     width: 100px;
