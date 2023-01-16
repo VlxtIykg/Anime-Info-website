@@ -129,7 +129,7 @@ function tokyoghoul() {
 function meliodas() {
     title.innerHTML = "<span title=\"Mc: Meliodas and a couple others\">7 Deadly Sins</span>"
     anime.innerHTML = "<a href=\"https://nanatsu-no-taizai.fandom.com/wiki/Meliodas\" target=\"_blank\">7 Deadly sins</a>";
-    character.innerText = "Meliodas <abbr title=\"Sin of Wrath\">SOW</abbr>"
+    character.innerHTML = "Meliodas <abbr title=\"Sin of Wrath\">SOW</abbr>"
     description.innerHTML = "Meliodas, the main protagonist of <a id=\"wiki\" href=\"https://nanatsu-no-taizai.fandom.com/wiki/Meliodas\" title=\"The son of the demon king and captian of the 7 deadly sins who were once part of the holy knight.\">7 Deadly Sins</a> is the captian of 6 other powerful individuals from many different races. Each <span title=\"Escanor[Sin of Pride], Diane[Sin of Envy], Ban[Sin of Greed], Gowther[Sin of Lust], Merlin[Sin of Gluttony], King[Sin of Sloth] and Meliodas[King of Wrath].\">individual</span> has their own sin and animal related to them. Meliodas is an extremely powerful demon however he does not work with the ten commandments anymore.<a id=\"fandom\" href=\"https://nanatsu-no-taizai.fandom.com/wiki/Meliodas\" target=\"_blank\"><br>Fandom<br></a> ";
     var link = document.getElementById('multiple');
     link.setAttribute('href', '/css/card/MeliodasCard.css');
